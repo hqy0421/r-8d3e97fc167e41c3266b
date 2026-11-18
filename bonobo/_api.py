@@ -143,6 +143,7 @@ def open_fs(fs_url=None, *args, **kwargs):
 # standard transformations
 api.register_group(
     CsvReader,
+    CsvShardReader,
     CsvWriter,
     FileReader,
     FileWriter,

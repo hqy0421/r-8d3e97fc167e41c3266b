@@ -20,8 +20,9 @@ Graphs
 Nodes
 :::::
 
-* :class:`bonobo.nodes.CsvReader` 
-* :class:`bonobo.nodes.CsvWriter` 
+* :class:`bonobo.nodes.CsvReader`
+* :class:`bonobo.nodes.CsvShardReader`
+* :class:`bonobo.nodes.CsvWriter`
 * :class:`bonobo.nodes.FileReader` 
 * :class:`bonobo.nodes.FileWriter` 
 * :class:`bonobo.nodes.Filter` 
